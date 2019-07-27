@@ -1,7 +1,11 @@
 #!/bin/bash
 
-# Bash is a series of command line calls so you can use it to do things like this
+echo '
+Bash is a series of command line calls so you can use it to do things like this
+' > /dev/null;
+
 # echo "This is the output from your bash script"
+
 
 # Or things like this 
 # ls
@@ -9,8 +13,10 @@
 
 # really anything that you would normally do on the command line 
 # git status
-# cd ~
+# cd ~/Movies
+# ls
 # cd -
+# ls
 
 # Ultimately we want this script to execute three commands\
 echo '
@@ -32,3 +38,9 @@ function acp(text,branch){
   git push origin ${branch};
 }
 ' > /dev/null
+
+# git add .
+# git commit -m ""
+
+git add .
+echo $1
