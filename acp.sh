@@ -43,4 +43,4 @@ function acp(text,branch){
 # git commit -m ""
 
 git add .
-echo $1
+git commit -m "$1"
