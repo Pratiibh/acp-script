@@ -17,8 +17,13 @@
   * You are in the branch you want to commit to and in the PWD of your repo
   * you are at the base level of your repo 
     * we are going to use ``` add . ``` in this command so you must be in the root of your repo
+  * git status output MUST have a line with syntax like ``` On branch kebab-case-branch
+```
 
 ## Setup
   * git pull 
-  * chmod +x ./acp.sh
-  * sudo cp ./acp.sh /usr/local/bin/acp
+  * first run just ./acp.sh
+  * comment out 42, 43 "#"
+
+## Usage
+  * acp "your commit message"
