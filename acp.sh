@@ -45,3 +45,5 @@ function acp(text,branch){
 git add .
 git commit -m "$1"
 git push origin `git status | grep branch | cut -d " " -f3`
+
+echo "this is new"
