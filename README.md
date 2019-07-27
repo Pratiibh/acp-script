@@ -9,6 +9,7 @@
 
 ## Expected parameters
   * input should look like 
-    ``` acp -m "This is the commit message"
+    ``` 
+    acp -m "This is the commit message"
     ```
-    
+
