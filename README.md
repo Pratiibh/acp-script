@@ -19,5 +19,6 @@
     * we are going to use ``` add . ``` in this command so you must be in the root of your repo
 
 ## Setup
+  * git pull 
   * chmod +x ./acp.sh
-  
+  * sudo cp ./acp.sh /usr/local/bin/acp

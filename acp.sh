@@ -39,6 +39,8 @@ function acp(text,branch){
 }
 ' > /dev/null
 
+sudo cp ./acp.sh /usr/local/bin/acp; 
+sudo chmod +x /usr/local/bin/acp;
 # git add .
 # git commit -m ""
 # git status | grep branch | cut -d " " -f3
